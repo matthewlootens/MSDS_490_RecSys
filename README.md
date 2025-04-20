@@ -8,6 +8,10 @@ Weekly assignments can be found in corresponding directories.
  * Falk, Kim. 2019. _Practical Recommender Systems_. Shelter Island, NY: Manning. [Main textbook]
  * Li, Dongsheng, Jianxun Lian, Le Zhang, Kan Ren, Tun Lu, Tao Wu, and Xing Xie. 2024. _Recommender Systems: Frontiers and Practices_. Singapore: Springer Nature Singapore. https://doi.org/10.1007/978-981-99-8964-5. [Selections as textbook]
  * Ricci, Francesco, Lior Rokach, and Bracha Shapira, eds. 2022. _Recommender Systems Handbook_. New York, NY: Springer US. https://doi.org/10.1007/978-1-0716-2197-4.
+ * _Mining of Massive Datasets._ Third edition. Cambridge: Cambridge University Press. [See also the video series below]
+
+### Videos
+ * [Mining of Massive Datasets from Stanford](https://www.youtube.com/playlist?list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV) One section of this course covers RecSys.
 
 ### Papers
 * Davidson, James, Benjamin Liebald, Junning Liu, Palash Nandy, Taylor Van Vleet, Ullas Gargi, Sujoy Gupta, et al. 2010. “The YouTube Video Recommendation System.” In Proceedings of the Fourth ACM Conference on Recommender Systems, 293–96. RecSys ’10. New York, NY, USA: Association for Computing Machinery. https://doi.org/10.1145/1864708.1864770.
