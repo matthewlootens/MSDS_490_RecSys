@@ -1,0 +1,9 @@
+## Content-Based Filtering
+
+1. Share your analysis on the recommendation produced using content-based filtering versus collaborative filtering in the previous module?
+
+Overall, the content-based filtering that uses genres alone produces movies that are much more similar than the collaborative filtering.  The collaborative filtering algorithm (both user-based and item-based) found movies that were significantly more different (and often surprisingly so).  Both approaches, however, were quite sensitivity to the value of the hyperparameters (i.e., the number of latent factors for LDA content-based filtering and the number of nearest neighbors for collaborative=based filtering).  Certainly, some additional experimentation and domain knowledge would be essential for developing a useful recommender system using either of the approaches.
+
+1. How would you address lack of diversity in the recommendations? For example, recommending all versions of Toy Story does not help as we know the user will like and perhaps watch all version of Toy Story if they have seen the original.
+
+Using a Latent Dirichlet Allocation (LDA) for topic modeling for a content-based recommender system does tend to recommend movies that are very similar in topic space, and therefore, tends to recommend movie sequels and directly relevant movies.  While it is true that a user will tend to like these recommendations, the system as a whole has failed to provide novel and diverse recommendations.  Several solutions are possible: one can add weightings or other forms of constraints to penalize movies that are very similar to the target item. Similarly, the system can also recommends movies with lower overall similarity to the target item, but still with high ratings. Over time, this should add in novelty to the recommendations.
