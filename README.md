@@ -20,3 +20,9 @@ Weekly assignments can be found in corresponding directories.
 ### Conferences and Other Resources
  * [ACM Conference on Recommender Systems](https://recsys.acm.org/recsys25/)
  * [RecSys Challenge 2025](https://www.recsyschallenge.com/2025/): An interesting challenge that includes a dataset with a baseline model.
+
+
+### Python Packages
+ * [Recommenders](https://github.com/recommenders-team/recommenders): A very expansive package with excellent supporting Jupyter notbeook tutorials.
+ * [Cornac](https://github.com/PreferredAI/cornac): "Cornac is a comparative framework for multimodal recommender systems." To be explored, but there are some good tutorials; it's recommended by the ACM RecSys group and has an implementation of BPR.
+ * [Surprise](https://surpriselib.com/): Simple interface, with built-in dataset. Really nice for exploring.
